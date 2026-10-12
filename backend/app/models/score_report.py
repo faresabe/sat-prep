@@ -37,3 +37,10 @@ class ScoreReport(Base):
     created_at: Mapped[datetime] = mapped_column(server_default=func.now())
 
     attempt: Mapped["TestAttempt"] = relationship(back_populates="score_report")
+
+    domain_results: Mapped[list["DomainResult"]] = relationship(
+        back_populates="report", cascade="all, delete-orphan"
+    )
+    skill_results: Mapped[list["SkillResult"]] = relationship(
+        back_populates="report", cascade="all, delete-orphan"
+    )

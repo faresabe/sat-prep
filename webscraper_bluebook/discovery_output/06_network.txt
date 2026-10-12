@@ -1,0 +1,68 @@
+=== XHR / fetch requests captured ===
+
+[XHR] POST https://satsuiteeducatorquestionbank.collegeboard.org/KfRkPR/wPYD/VjUJi/R/b5QuDeHWLNU/ah3pctmSpw8VNVNO/dDY_FQE/aRYQeC8G/L1Q
+      content-type: 
+      body: {"sensor_data":"3;0;1;0;4535092;A3qAIsyasZKb+3k4jLiCSfukqpKGGQrYmqcRZCIewAo=;63,0,0,2,3,0;aU0S\"M+\"c\"~\"7eZ\",{6\".w.:b)L|O\" CZ\"d#63r\"m>Sm\"t\"zg\"pF;\"2Sw\"W?<\"A=j\"(EdX>\"Yp)\":bNrY\"z3?\"-:i\"Z2 \"RX~f(O%\"Hsn<j[L #B=fy>>U\"K\"C+l\"O1L\"^_5\"<\"\"`\")b|\"9]_^w^f\"}@)\"$\"\"o.-\">v\"806WrMlPlLj47KdZN\" GB\"BtsG>i>NO<#)1GrD\"F_S\"_kaT1\"GvL\"C=}Q;_\"by,qcqzHs[,{B6\"f&6\"gy1\"m\"B\"~d]s\"!8\">4?\"s=~d\"X4\" LS\"(MS\"ID$7s#d\"Bx3\"~\"\":\"}c\"kC3oIMw]\"h::\"(l}p( }M;O\"TY \"Qvs\"8bW\"Fg+#$T
+
+[Fetch] GET https://athena.collegeboard.org/api/header-links.json
+
+[Fetch] GET https://athena.collegeboard.org/api/footer-links.json
+
+[XHR] GET https://eqb.appcontent.collegeboard.org/api/v1/snippets?_format=json&page_name=k12login
+
+[Fetch] POST https://cognito-identity.us-east-1.amazonaws.com/
+      content-type: application/x-amz-json-1.1
+      body: {"IdentityPoolId":"us-east-1:b1d823b0-f51e-47c3-80b3-30a26836fea5"}
+
+[XHR] GET https://qbank-api.collegeboard.org/msreportingquestionbank-prod/questionbank/lookup
+
+[XHR] GET https://cdn.cookielaw.org/consent/34566b46-91c2-441e-b671-418bbdbc7a36/34566b46-91c2-441e-b671-418bbdbc7a36.json
+
+[XHR] GET https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location
+
+[Fetch] GET https://cdn.cookielaw.org/consent/34566b46-91c2-441e-b671-418bbdbc7a36/019962da-0764-783a-b71a-e9c34ed8e8e8/en.json
+
+[Fetch] GET https://kiwi.collegeboard.org/entry
+
+[Fetch] GET https://cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otFlat.json
+
+[Fetch] GET https://cdn.cookielaw.org/scripttemplates/202609.1.0/assets/v2/otPcCenter.json
+
+[Fetch] GET https://cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCookieSettingsButton.json
+
+[Fetch] GET https://cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCommonStyles.css
+
+[Fetch] POST https://sts.us-east-1.amazonaws.com/
+      content-type: application/x-www-form-urlencoded
+      body: RoleArn=arn%3Aaws%3Aiam%3A%3A960725147817%3Arole%2Feqb-rum-prod-role&RoleSessionName=cwr&WebIdentityToken=eyJraWQiOiJ1cy1lYXN0LTEtMTAiLCJ0eXAiOiJKV1MiLCJhbGciOiJSUzUxMiJ9.eyJzdWIiOiJ1cy1lYXN0LTE6ZGZhZmFlNjAtYTk3MC1jZTEzLWNmOGItNzE1ZDMzODVmMDE3IiwiYXVkIjoidXMtZWFzdC0xOmIxZDgyM2IwLWY1MWUtNDdjMy04MGIzLTMwYTI2ODM2ZmVhNSIsImFtciI6WyJ1bmF1dGhlbnRpY2F0ZWQiXSwiaXNzIjoiaHR0cHM6Ly9jb2duaXRvLWlkZW50aXR5LmFtYXpvbmF3cy5jb20iLCJleHAiOjE3OTE0NTM2NTEsImlhdCI6MTc5MTQ1MzA1MX0.pHBoMwuR9nD6xJBt4jx2BX_n_XLvSknQ3YfRu
+
+[Fetch] GET https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg
+
+[Fetch] POST https://dataplane.rum.us-east-1.amazonaws.com/appmonitors/585a904d-383f-48d7-abde-796584300c9c/
+      content-type: application/json
+      authorization: AWS4-HMAC-SHA256 Credential=ASIA57L5OMCUUVKTLOJ5/20261008/us-east-1/rum/aws4_request, SignedHeaders=content-type;host;x-amz-content-sha256;x-amz-date;x-amz-security-token, Signature=4ffe37e72570e98a64b98cb7948fa0ef203d156910700058fa7c5de421d70a14
+      body: {"BatchId":"d560e856-f328-4cea-b0aa-245f54a69d88","AppMonitorDetails":{"id":"585a904d-383f-48d7-abde-796584300c9c","version":"1.0.0"},"UserDetails":{"userId":"da40d098-3daa-404b-977c-0f362aadc1e0","sessionId":"44eb33b3-2eef-4ee4-bc90-a0e1e7494bf9"},"RumEvents":[{"id":"6c54f388-b92b-41e5-9774-71cb15dca181","timestamp":1791453050,"type":"com.amazon.rum.session_start_event","metadata":"{\"version\":\"1.0.0\",\"browserLanguage\":\"en-US\",\"browserName\":\"Chrome\",\"browserVersion\":\"154.0.0.0\",\
+
+[XHR] POST https://privacyportal.onetrust.com/request/v1/consentreceipts/anonymous
+      content-type: 
+      body: {"requestInformation":"eyJhbGciOiJSUzUxMiJ9.eyJvdEp3dFZlcnNpb24iOjEsInByb2Nlc3NJZCI6ImQwN2ZhOTg4LTM3MTYtNDM3Yy1hZjNjLTI2YjJhMTVhMzFhNCIsInByb2Nlc3NWZXJzaW9uIjozLCJpYXQiOiIyMDI1LTA3LTEwVDEzOjQ4OjA3LjcwMyIsIm1vYyI6IkNPT0tJRSIsInBvbGljeV91cmkiOiJjb2xsZWdlYm9hcmQub3JnIiwic3ViIjoiQ29va2llIFVuaXF1ZSBJZCIsImlzcyI6bnVsbCwidGVuYW50SWQiOiI2NWEzOGMzZi00ZjFmLTRhY2MtOWUxNi05YTljZDdmODYwNTMiLCJkZXNjcmlwdGlvbiI6IlRoaXMgY29sbGVjdGlvbiBwb2ludCBjYXB0dXJlcyB0aGUgY3VycmVudCBzaXRlIHZpc2l0b3IgY29uc2VudCBwcmVmZXJlbmNl
+
+[Fetch] POST https://strack.collegeboard.org/ee/v1/privacy/set-consent?configId=323b61ba-d5d6-4f1d-b143-d629f9e10690&requestId=62f18a7f-fb5b-4070-ac4d-39b37e3fe880
+      content-type: 
+      body: {"consent":[{"standard":"Adobe","version":"2.0","value":{"collect":{"val":"y"},"metadata":{"time":"2026-10-08T09:50:55.612Z"}}}],"query":{"identity":{"fetch":["ECID"]}},"meta":{"state":{"domain":"collegeboard.org","cookiesEnabled":true}}}
+
+[Fetch] POST https://strack.collegeboard.org/ee/irl1/v1/interact?configId=323b61ba-d5d6-4f1d-b143-d629f9e10690&requestId=ece71e9a-f1d5-4eff-930b-199ee2f754ed
+      content-type: 
+      body: {"events":[{"xdm":{"eventType":"web.webpagedetails.pageViews","web":{"webPageDetails":{"URL":"https://satsuiteeducatorquestionbank.collegeboard.org/digital/search","name":"satsuiteeducatorquestionbank/digital/search","pageViews":{"value":1}},"webReferrer":{"URL":""}},"device":{"screenHeight":768,"screenWidth":1366,"screenOrientation":"landscape"},"environment":{"type":"browser","browserDetails":{"viewportWidth":1355,"viewportHeight":693,"acceptLanguage":"en-US"}},"placeContext":{"localTimezoneOf
+
+[XHR] POST https://qbank-api.collegeboard.org/msreportingquestionbank-prod/questionbank/digital/get-questions
+      content-type: 
+      body: {"asmtEventId":99,"test":1,"domain":"INI,CAS,EOI,SEC"}
+
+[Fetch] POST https://strack.collegeboard.org/ee/irl1/v1/interact?configId=323b61ba-d5d6-4f1d-b143-d629f9e10690&requestId=588f9af0-379b-483e-accf-37975d98c0c3
+      content-type: 
+      body: {"events":[{"xdm":{"eventType":"web.webpagedetails.pageViews","web":{"webPageDetails":{"URL":"https://satsuiteeducatorquestionbank.collegeboard.org/digital/results","name":"satsuiteeducatorquestionbank/digital/results","pageViews":{"value":1}},"webReferrer":{"URL":""},"webInteraction":{"name":"Search","region":"search","type":"other","URL":"https://satsuiteeducatorquestionbank.collegeboard.org/digital/search","linkClicks":{"value":1}}},"device":{"screenHeight":768,"screenWidth":1366,"screenOrien
+
+[XHR] POST https://qbank-api.collegeboard.org/msreportingquestionbank-prod/questionbank/digital/get-question
+      content-type: 
+      body: {"external_id":"52a8f1cb-bff4-4dcb-b455-fbc202e8513c"}

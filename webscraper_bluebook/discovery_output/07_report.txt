@@ -1,0 +1,94 @@
+========================================================================
+SAT QB DISCOVERY REPORT
+========================================================================
+URL: https://satsuiteeducatorquestionbank.collegeboard.org/digital/results
+Title: Results - SAT Suite Educator Question Bank
+
+--- FILTER BUTTONS ---
+difficulty-filter button                      → 1 match(es)
+    <button id='difficulty-filter' class='cb-btn cb-btn-black difficulty false' aria-label=''>
+
+skill-filter button                           → 1 match(es)
+    <button id='skill-filter' class='cb-btn cb-btn-black skill false' aria-label=''>
+
+state-standards-filter button                 → 1 match(es)
+    <button id='state-standards-filter' class='cb-btn cb-btn-black state-standards' aria-label=''>
+
+any popover                                   → 9 match(es)
+    <div id='apricot_popover_\:re\:' class='cb-popover' aria-label=''>
+    <div id='apricot_popover_\:ri\:' class='cb-popover' aria-label=''>
+    <div id='apricot_popover_\:rj\:' class='cb-popover' aria-label=''>
+
+visible popover                               → 0 match(es)
+
+
+--- TABLE ---
+questions table                               → 1 match(es)
+    <div id='questions-table' class='' aria-label=''>
+
+table rows                                    → 10 match(es)
+    <tr id='' class='' aria-label=''>
+    <tr id='' class='' aria-label=''>
+    <tr id='' class='' aria-label=''>
+
+view-question buttons                         → 10 match(es)
+    <button id='f1bfbed3' class='cb-btn square cb-roboto cb-btn-naked view-question-button' aria-label='Question f1bfbed3'>
+    <button id='87aa7bab' class='cb-btn square cb-roboto cb-btn-naked view-question-button' aria-label='Question 87aa7bab'>
+    <button id='d73a908a' class='cb-btn square cb-roboto cb-btn-naked view-question-button' aria-label='Question d73a908a'>
+
+  (IDs of first 5 rows)                       → 10 match(es)
+    <button id='f1bfbed3' class='cb-btn square cb-roboto cb-btn-naked view-question-button' aria-label='Question f1bfbed3'>
+    <button id='87aa7bab' class='cb-btn square cb-roboto cb-btn-naked view-question-button' aria-label='Question 87aa7bab'>
+    <button id='d73a908a' class='cb-btn square cb-roboto cb-btn-naked view-question-button' aria-label='Question d73a908a'>
+
+    id=f1bfbed3 text=f1bfbed3
+    id=87aa7bab text=87aa7bab
+    id=d73a908a text=d73a908a
+    id=d748c3fd text=d748c3fd
+    id=6b8a7c74 text=6b8a7c74
+
+--- PAGINATION ---
+next page button                              → 1 match(es)
+    <a id='apricot_pager_btn_:r2f:_next' class='cb-btn cb-btn-square cb-btn-greyscale' aria-label=''>
+
+prev page button                              → 1 match(es)
+    <a id='apricot_pager_btn_:r2f:_prev' class='cb-btn cb-btn-square cb-btn-greyscale cb-disabled' aria-label=''>
+
+
+--- MODAL (if open) ---
+[role=dialog]                                 → 1 match(es)
+    <div id='' class='cb-modal-container export-modal-container' aria-label='Loading PDF export. Please wait up to 30 seconds.'>
+
+.cb-modal                                     → 2 match(es)
+    <div id='modalID1' class='cb-modal cb-dialog-modal cb-open' aria-label=''>
+    <div id='apricot_modal_:rc:' class='cb-modal' aria-label=''>
+
+.cb-modal-container                           → 2 match(es)
+    <div id='' class='cb-modal-container' aria-label='dialog'>
+    <div id='' class='cb-modal-container export-modal-container' aria-label='Loading PDF export. Please wait up to 30 seconds.'>
+
+.cb-modal-content                             → 1 match(es)
+    <div id='' class='cb-modal-content' aria-label=''>
+
+
+--- SELECTS ---
+all <select>                                  → 0 match(es)
+
+
+--- CHECKBOXES ---
+Total checkbox inputs on page: 27
+    id=apricot_check_:rf: value='Easy' selected=False aria-label='None'
+    id=apricot_check_:rg: value='Medium' selected=False aria-label='None'
+    id=apricot_check_:rh: value='Hard' selected=False aria-label='None'
+    id=apricot_check_:r3e: value='Central Ideas and Details' selected=False aria-label='None'
+    id=apricot_check_:r3f: value='Inferences' selected=False aria-label='None'
+    id=apricot_check_:r3g: value='Command of Evidence' selected=False aria-label='None'
+    id=apricot_check_:r3h: value='Words in Context' selected=False aria-label='None'
+    id=apricot_check_:r3i: value='Text Structure and Purpose' selected=False aria-label='None'
+    id=apricot_check_:r3j: value='Cross-Text Connections' selected=False aria-label='None'
+    id=apricot_check_:r3k: value='Rhetorical Synthesis' selected=False aria-label='None'
+    id=apricot_check_:r3l: value='Transitions' selected=False aria-label='None'
+    id=apricot_check_:r3m: value='Boundaries' selected=False aria-label='None'
+    id=apricot_check_:r3n: value='Form, Structure, and Sense' selected=False aria-label='None'
+    id=apricot_check_:r1p: value='on' selected=False aria-label='Exclude Active Questions Toggle'
+    id=apricot_check_:r3p: value='' selected=False aria-label='select page'

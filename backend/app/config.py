@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     environment: str = "development"
     debug: bool = True
     database_url: str
+    database_url_migration: str
     redis_url: str = ""
     jwt_secret: str
     jwt_algorithm: str = "HS256"
