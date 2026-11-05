@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 .venv/
+.venv_linux/
 venv/
 *.egg-info/
 .pytest_cache/
@@ -14,16 +15,24 @@ dist/
 .vite/
 *.log
 
-# Env
+# Env — never commit secrets
 .env
 .env.local
 .env.*.local
 
+# DB dumps
+*.dump
+*.sql.gz
 
 # IDE
 .vscode/
 .idea/
 .DS_Store
 
-SAT_Downloads
+# Scraper raw downloads (large, not needed in repo)
+SAT_Downloads/
 *.png
+
+# Discovery HTML (scraper artifacts)
+webscraper_bluebook/discovery_output/
+webscraper_bluebook/test_download/

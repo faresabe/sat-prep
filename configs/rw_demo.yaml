@@ -1,0 +1,64 @@
+# rw_demo.yaml — configuration for the demo RW section-practice test
+# Used by scripts/build_rw_test.py
+
+test:
+  slug: "rw-demo-adaptive"
+  title: "RW Demo — Adaptive Practice"
+  description: "Two-module adaptive RW section practice"
+  test_type: "section_practice"
+  is_adaptive: true
+
+section:
+  section: "RW"
+  position: 1
+  break_seconds: null
+  break_skippable: false
+
+# Module 1: router module (stage=1)
+module_1:
+  stage: 1
+  level: "router"
+  time_limit_sec: 1920       # 32 minutes
+  question_target: 27
+  routing_threshold: 0.65
+  routing_weight_easy: 1
+  routing_weight_medium: 2
+  routing_weight_hard: 3
+  # Selects 27 published RW questions randomly (seeded for reproducibility)
+  question_selection:
+    strategy: random
+    count: 27
+    section: "RW"
+    seed: 42
+
+# Module 2 Easy (stage=2, level=easy)
+module_2_easy:
+  stage: 2
+  level: "easy"
+  time_limit_sec: 1920
+  question_target: 27
+  question_selection:
+    strategy: random
+    count: 27
+    section: "RW"
+    difficulty_distribution:
+      easy: 15
+      medium: 8
+      hard: 4
+    seed: 100
+
+# Module 2 Hard (stage=2, level=hard)
+module_2_hard:
+  stage: 2
+  level: "hard"
+  time_limit_sec: 1920
+  question_target: 27
+  question_selection:
+    strategy: random
+    count: 27
+    section: "RW"
+    difficulty_distribution:
+      easy: 4
+      medium: 10
+      hard: 13
+    seed: 200

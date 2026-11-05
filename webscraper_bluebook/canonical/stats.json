@@ -1,0 +1,13 @@
+{
+  "seen": 3419,
+  "ok": 3312,
+  "rejected": 107,
+  "by_variant": {
+    "api": 3017,
+    "selenium": 295
+  },
+  "by_type": {
+    "multiple_choice": 3006,
+    "grid_in": 306
+  }
+}
