@@ -1,8 +1,18 @@
 import axios from 'axios'
 import { v4 as uuidv4 } from 'uuid'
 
+// VITE_API_URL must be set as an environment variable in Vercel.
+// Falls back to localhost only in local dev (when import.meta.env.DEV is true).
+const API_URL: string =
+  import.meta.env.VITE_API_URL ||
+  (import.meta.env.DEV ? 'http://localhost:8000' : '')
+
+if (!API_URL) {
+  console.error('VITE_API_URL is not set. Set it in the Vercel environment variables.')
+}
+
 const client = axios.create({
-  baseURL: import.meta.env.VITE_API_URL ?? 'http://localhost:8000',
+  baseURL: API_URL,
   timeout: 15_000,
 })
 
